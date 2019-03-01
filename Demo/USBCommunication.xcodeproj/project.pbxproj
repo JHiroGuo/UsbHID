@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BEF544F2229394600F87AB1 /* USBDeviceManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEF544E2229394600F87AB1 /* USBDeviceManager.framework */; };
+		3BEF54502229394600F87AB1 /* USBDeviceManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEF544E2229394600F87AB1 /* USBDeviceManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3BF31E8C2228ECE100CD8364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF31E8B2228ECE100CD8364 /* AppDelegate.m */; };
+		3BF31E8F2228ECE100CD8364 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF31E8E2228ECE100CD8364 /* ViewController.m */; };
+		3BF31E912228ECE100CD8364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF31E902228ECE100CD8364 /* Assets.xcassets */; };
+		3BF31E942228ECE100CD8364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF31E922228ECE100CD8364 /* Main.storyboard */; };
+		3BF31E972228ECE100CD8364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF31E962228ECE100CD8364 /* main.m */; };
+		3BF31EA02228ECFB00CD8364 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF31E9F2228ECFB00CD8364 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BF31EA72228F98300CD8364 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3BEF54502229394600F87AB1 /* USBDeviceManager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BEF544E2229394600F87AB1 /* USBDeviceManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = USBDeviceManager.framework; path = USBCommunication/USBDeviceManager.framework; sourceTree = "<group>"; };
+		3BF31E872228ECE100CD8364 /* USBCommunication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USBCommunication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF31E8A2228ECE100CD8364 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BF31E8B2228ECE100CD8364 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BF31E8D2228ECE100CD8364 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BF31E8E2228ECE100CD8364 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BF31E902228ECE100CD8364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BF31E932228ECE100CD8364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BF31E952228ECE100CD8364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF31E962228ECE100CD8364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BF31E982228ECE100CD8364 /* USBCommunication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = USBCommunication.entitlements; sourceTree = "<group>"; };
+		3BF31E9F2228ECFB00CD8364 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BF31E842228ECE100CD8364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF31EA02228ECFB00CD8364 /* IOKit.framework in Frameworks */,
+				3BEF544F2229394600F87AB1 /* USBDeviceManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF31E7E2228ECE100CD8364 = {
+			isa = PBXGroup;
+			children = (
+				3BEF544E2229394600F87AB1 /* USBDeviceManager.framework */,
+				3BF31E892228ECE100CD8364 /* USBCommunication */,
+				3BF31E882228ECE100CD8364 /* Products */,
+				3BF31E9E2228ECFB00CD8364 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BF31E882228ECE100CD8364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BF31E872228ECE100CD8364 /* USBCommunication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BF31E892228ECE100CD8364 /* USBCommunication */ = {
+			isa = PBXGroup;
+			children = (
+				3BF31E8A2228ECE100CD8364 /* AppDelegate.h */,
+				3BF31E8B2228ECE100CD8364 /* AppDelegate.m */,
+				3BF31E8D2228ECE100CD8364 /* ViewController.h */,
+				3BF31E8E2228ECE100CD8364 /* ViewController.m */,
+				3BF31E902228ECE100CD8364 /* Assets.xcassets */,
+				3BF31E922228ECE100CD8364 /* Main.storyboard */,
+				3BF31E952228ECE100CD8364 /* Info.plist */,
+				3BF31E962228ECE100CD8364 /* main.m */,
+				3BF31E982228ECE100CD8364 /* USBCommunication.entitlements */,
+			);
+			path = USBCommunication;
+			sourceTree = "<group>";
+		};
+		3BF31E9E2228ECFB00CD8364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BF31E9F2228ECFB00CD8364 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BF31E862228ECE100CD8364 /* USBCommunication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF31E9B2228ECE100CD8364 /* Build configuration list for PBXNativeTarget "USBCommunication" */;
+			buildPhases = (
+				3BF31E832228ECE100CD8364 /* Sources */,
+				3BF31E842228ECE100CD8364 /* Frameworks */,
+				3BF31E852228ECE100CD8364 /* Resources */,
+				3BF31EA72228F98300CD8364 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USBCommunication;
+			productName = USBCommunication;
+			productReference = 3BF31E872228ECE100CD8364 /* USBCommunication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BF31E7F2228ECE100CD8364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GJH;
+				TargetAttributes = {
+					3BF31E862228ECE100CD8364 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3BF31E822228ECE100CD8364 /* Build configuration list for PBXProject "USBCommunication" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BF31E7E2228ECE100CD8364;
+			productRefGroup = 3BF31E882228ECE100CD8364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BF31E862228ECE100CD8364 /* USBCommunication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BF31E852228ECE100CD8364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF31E912228ECE100CD8364 /* Assets.xcassets in Resources */,
+				3BF31E942228ECE100CD8364 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BF31E832228ECE100CD8364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF31E8F2228ECE100CD8364 /* ViewController.m in Sources */,
+				3BF31E972228ECE100CD8364 /* main.m in Sources */,
+				3BF31E8C2228ECE100CD8364 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BF31E922228ECE100CD8364 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BF31E932228ECE100CD8364 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BF31E992228ECE100CD8364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3BF31E9A2228ECE100CD8364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3BF31E9C2228ECE100CD8364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2HU95337PZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/USBCommunication",
+				);
+				INFOPLIST_FILE = USBCommunication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiertime.USBCommunication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BF31E9D2228ECE100CD8364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2HU95337PZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/USBCommunication",
+				);
+				INFOPLIST_FILE = USBCommunication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiertime.USBCommunication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BF31E822228ECE100CD8364 /* Build configuration list for PBXProject "USBCommunication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF31E992228ECE100CD8364 /* Debug */,
+				3BF31E9A2228ECE100CD8364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF31E9B2228ECE100CD8364 /* Build configuration list for PBXNativeTarget "USBCommunication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF31E9C2228ECE100CD8364 /* Debug */,
+				3BF31E9D2228ECE100CD8364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BF31E7F2228ECE100CD8364 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module USBManager {
+  umbrella header "USBManager.h"
+
+  export *
+  module * { export * }
+}
